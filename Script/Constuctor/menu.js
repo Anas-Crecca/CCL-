@@ -75,8 +75,8 @@ menu.GameSetUp = function (levelRef) {
             this.dialogBox.style.display = "none";
             global.canvas.style.display = "block";
 
-            global.puzzleRows = 6;
-            global.puzzleColumns = 4;
+            global.puzzleRows = 2;
+            global.puzzleColumns = 2;
             let picture3 = new Image();
             picture3.src = "/CCL1/Images/quakurn.png";
             const piecewidth3 = Math.floor(picture3.width / global.puzzleColumns);
