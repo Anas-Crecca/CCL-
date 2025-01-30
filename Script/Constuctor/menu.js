@@ -99,7 +99,7 @@ menu.GameSetUp = function (levelRef) {
             global.puzzleRows = 1;
             global.puzzleColumns = 10;
             let picture4 = new Image();
-            picture4.src = "./Images/froggerlisa2.png";
+            picture4.src = "../Images/froggerlisa2.png";
             const piecewidth4 = Math.floor(picture4.width / global.puzzleColumns);
             const pieceheight4 = Math.floor(picture4.height / global.puzzleRows);
 
