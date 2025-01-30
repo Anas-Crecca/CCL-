@@ -37,7 +37,7 @@ menu.GameSetUp = function (levelRef) {
             global.puzzleRows = 3;
             global.puzzleColumns = 3;
             let picture1 = new Image();
-            picture1.src = "/images/PearlFrog.png";
+            picture1.src = "/Images/PearlFrog.png";
             const piecewidth1 = Math.floor(picture1.width / global.puzzleColumns);
             const pieceheight1 = Math.floor(picture1.height / global.puzzleRows);
 
@@ -57,7 +57,7 @@ menu.GameSetUp = function (levelRef) {
             global.puzzleRows = 4;
             global.puzzleColumns = 4;
             let picture2 = new Image();
-            picture2.src = "/images/croak.png";
+            picture2.src = "/Images/croak.png";
             const piecewidth2 = Math.floor(picture2.width / global.puzzleColumns);
             const pieceheight2 = Math.floor(picture2.height / global.puzzleRows);
 
@@ -78,7 +78,7 @@ menu.GameSetUp = function (levelRef) {
             global.puzzleRows = 6;
             global.puzzleColumns = 4;
             let picture3 = new Image();
-            picture3.src = "/images/quakurn.png";
+            picture3.src = "/Images/quakurn.png";
             const piecewidth3 = Math.floor(picture3.width / global.puzzleColumns);
             const pieceheight3 = Math.floor(picture3.height / global.puzzleRows);
 
@@ -99,7 +99,7 @@ menu.GameSetUp = function (levelRef) {
             global.puzzleRows = 1;
             global.puzzleColumns = 10;
             let picture4 = new Image();
-            picture4.src = "/images/froggerlisa2.png";
+            picture4.src = "/Images/froggerlisa2.png";
             const piecewidth4 = Math.floor(picture4.width / global.puzzleColumns);
             const pieceheight4 = Math.floor(picture4.height / global.puzzleRows);
 
