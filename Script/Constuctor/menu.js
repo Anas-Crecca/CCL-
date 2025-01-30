@@ -37,7 +37,7 @@ menu.GameSetUp = function (levelRef) {
             global.puzzleRows = 3;
             global.puzzleColumns = 3;
             let picture1 = new Image();
-            picture1.src = "/Images/PearlFrog.png";
+            picture1.src = "/CCL1/Images/PearlFrog.png";
             const piecewidth1 = Math.floor(picture1.width / global.puzzleColumns);
             const pieceheight1 = Math.floor(picture1.height / global.puzzleRows);
 
@@ -57,7 +57,7 @@ menu.GameSetUp = function (levelRef) {
             global.puzzleRows = 4;
             global.puzzleColumns = 4;
             let picture2 = new Image();
-            picture2.src = "/Images/croak.png";
+            picture2.src = "/CCL1/Images/croak.png";
             const piecewidth2 = Math.floor(picture2.width / global.puzzleColumns);
             const pieceheight2 = Math.floor(picture2.height / global.puzzleRows);
 
@@ -78,7 +78,7 @@ menu.GameSetUp = function (levelRef) {
             global.puzzleRows = 6;
             global.puzzleColumns = 4;
             let picture3 = new Image();
-            picture3.src = "/Images/quakurn.png";
+            picture3.src = "/CCL1/Images/quakurn.png";
             const piecewidth3 = Math.floor(picture3.width / global.puzzleColumns);
             const pieceheight3 = Math.floor(picture3.height / global.puzzleRows);
 
@@ -99,7 +99,7 @@ menu.GameSetUp = function (levelRef) {
             global.puzzleRows = 1;
             global.puzzleColumns = 10;
             let picture4 = new Image();
-            picture4.src = "/Images/froggerlisa2.png";
+            picture4.src = "/CCL1/Images/froggerlisa2.png";
             const piecewidth4 = Math.floor(picture4.width / global.puzzleColumns);
             const pieceheight4 = Math.floor(picture4.height / global.puzzleRows);
 
@@ -122,25 +122,25 @@ menu.endLevel = function (levelRef) {
         case 1:
 
             this.endText.innerText = "The Frog with the Pearl Earing: Painted by Frogannes Vermeer in 1665 (44.5cm x 39cm, Oil on Canvas)";
-            this.endPic.src = "/Images/PearlFrog.png";
+            this.endPic.src = "/CCL1/Images/PearlFrog.png";
 
             break;
         case 2:
 
             this.endText.innerText = "The Croak: Painted by Edfrog Munch in 1893 (91cm x 73.5cm; Oil, Tempera, Pastel and Crayon on Cardboard)";
-            this.endPic.src = "/Images/croak.png";
+            this.endPic.src = "/CCL1/Images/croak.png";
 
             break;
         case 3:
 
             this.endText.innerText = "Quakturn devouring his Spawn: Painted by Frogcisco Goya from 1820-1823 (143.5 cm x 81.4 cm, mixed media mural transfered to Canvas)";
-            this.endPic.src = "/Images/quakurn.png";
+            this.endPic.src = "/CCL1/Images/quakurn.png";
 
             break;
         case 4:
 
             this.endText.innerText = "Frogger Lisa: Painted by Frogernardo da Vinci in the 1500s (77 cm x 53 cm, Oil on poplar panel)";
-            this.endPic.src = "/Images/froggerlisa2.png";
+            this.endPic.src = "/CCL1/Images/froggerlisa2.png";
 
             break;
     }
